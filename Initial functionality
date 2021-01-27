@@ -4,8 +4,6 @@ import java.awt.Checkbox;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseAdapter;
 import java.util.ArrayList;
 
 import javax.swing.BoxLayout;
@@ -21,7 +19,6 @@ import javax.swing.JTextField;
 public class ToDoList {
     public static void main(String[] args) {
         ArrayList<Checkbox> aTask = new ArrayList<Checkbox>();
-        JFrame frame = new JFrame("To-do list");
         
         JPanel mainPanel = new JPanel();
         frame.add(mainPanel);
